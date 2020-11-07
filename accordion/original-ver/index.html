@@ -1,0 +1,57 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <style>
+        	.accordion {
+            width: 500px;
+            margin: 0 auto;
+          }
+        	.accordion-trigger {
+        		margin: 0;
+        		padding: 10px;
+        		display: block;
+        		background: #333;
+        		color: #FFF;
+        		border-top: 1px solid #fff;
+        	}
+        	.accordion-contents {
+        		margin: 0;
+        		border: 1px solid #ccc;
+        		padding: 10px;
+        		display: none;
+        	}
+        </style>
+    </head>
+    <body>
+       
+      <div class="accordion" id="js-accordion">
+      		<a class="accordion-trigger" href="">Q.質問文1 ▼</a>
+      		<div class="accordion-contents">
+      			A.回答文1<br>
+      			ああああああああああああ<br>
+      			ああああああああああああああ
+      		</div>
+
+      		<a class="accordion-trigger" href="">Q.質問文2 ▼</a>
+      		<div class="accordion-contents">
+      			A.回答文2<br>
+      			いいいいいいいいいいいい<br>
+      			いいいいいいいいいいいいいい
+      		</div>
+        </div>
+		
+	    <script src="app.js"></script>
+    </body>
+</html>
