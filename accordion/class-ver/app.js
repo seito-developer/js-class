@@ -1,7 +1,7 @@
 (() => {
 	class Accordion {
 		constructor(obj){
-			// this.elm = obj.elm;
+			
 			this.$elm = document.querySelector(obj.elm);
 			this.$trigger = this.$elm.getElementsByTagName('a');
 
